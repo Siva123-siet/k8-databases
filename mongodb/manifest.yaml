@@ -13,7 +13,7 @@ spec:
   selector:
     component: mongodb
     project: roboshop
-    tier: database
+    tier: database 
   ports:
     - protocol: TCP
       port: 27017 # service port

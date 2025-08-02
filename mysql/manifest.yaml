@@ -53,6 +53,7 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: mysql
+  namespace: roboshop
   labels:
     component: mysql
     project: roboshop

@@ -28,8 +28,8 @@ spec:
     tier: database
   ports:
     - protocol: TCP
-      port: 3306 # service port
-      targetPort: 3306 # container port
+      port: 5672 # service port
+      targetPort: 5672 # container port
 ---
 apiVersion: v1
 kind: Service
@@ -47,8 +47,8 @@ spec:
     tier: database
   ports:
     - protocol: TCP
-      port: 3306 # service port
-      targetPort: 3306 # container port
+      port: 5672 # service port
+      targetPort: 5672 # container port
 ---
 apiVersion: apps/v1
 kind: StatefulSet
